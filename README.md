@@ -1,10 +1,10 @@
-# a basic react WebApp
+# a basic React and Node.js WebApp
 react for frontend und node.js for backend
 
 
 ## Step 1
 smile because today is a wonderful day :D
-then go into the backend folger and run 
+then go into the backend folder and run 
 ```bash
 npm start
 ```
