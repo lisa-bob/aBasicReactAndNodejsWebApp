@@ -1,0 +1,23 @@
+h2 {
+    text-align: center;
+    margin: 100px auto !important;
+}
+.input {
+    width: 200px;
+    margin: 10px auto;
+}
+#login, #user {
+    display: grid;
+    grid-template-columns: auto;
+}
+#inputs {
+    width: auto;
+}
+#userCard {
+    margin: 0 auto;
+}
+#loginUser, #logout {
+    width: 80px;
+    background-color: salmon;
+    margin: 50px auto;
+}

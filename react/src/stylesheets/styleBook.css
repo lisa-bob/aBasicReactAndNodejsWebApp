@@ -1,0 +1,53 @@
+h2 {
+  text-align: center;
+  margin: 100px auto !important;
+}
+#bookTable {
+  width: 80%;
+  margin: 10%;
+}
+#addBookButton {
+  margin: 0 auto;
+  background-color: salmon;
+}
+#saveNewBook {
+  background-color: salmon;
+}
+#addBookButton:hover, #saveNewBook:hover {
+  background-color: rgb(190, 104, 94);
+}
+#addBookButtonWrapper {
+  display: flex;
+}
+.readBook {
+  margin-right: 20px;
+}
+.removeCell:hover {
+  cursor: pointer;
+}
+.checkbox {
+  top: 5px;
+}
+
+
+/*
+.bookTitle {
+  position: relative;
+}
+.bookTitle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: salmon;
+  transform-origin: bottom right;
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+.bookTitle:hover::before {
+  transform-origin: bottom left;
+  transform: scaleX(1);
+}
+*/
